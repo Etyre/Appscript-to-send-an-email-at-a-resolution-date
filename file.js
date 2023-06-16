@@ -23,7 +23,7 @@ function checkDateAndSendEmail() {
 }
 
 function sendEmail(emailTo) {
-  var subject = 'Today\'s Date Found!';
-  var body = 'Today\'s date was found in the specified column of the spreadsheet.';
+  var subject = 'You have a prediction to resolve!';
+  var body = 'Today\'s date was found in the specified column of the spreadsheet. Go resolve it! \n https://docs.google.com/spreadsheets/d/1oCOdG8grvex2nq_-TFP41ZcpVAqvP42oFv5vqQ7sfLw/edit#gid=423034523';
   MailApp.sendEmail(emailTo, subject, body);
 }
